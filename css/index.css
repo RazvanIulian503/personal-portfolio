@@ -1,0 +1,30 @@
+.home-container {
+    user-select: none;
+}
+
+.social-icon {
+    transition: .3s;
+}
+
+.social-icon:hover {
+    transform: translateY(-10px);
+    color: crimson;
+}
+
+.work-col {
+    transition: .3s;
+    cursor: pointer;
+}
+
+.work-col:hover {
+    transform: scale(1.1);
+}
+
+.port-col {
+    transition: .3s;
+    cursor: pointer;
+}
+
+.port-col:hover {
+    transform: translateY(-10px);
+}
